@@ -1,0 +1,131 @@
+body {
+	background-color: #5bc0de;
+	overflow: hidden;
+
+}
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+@media (max-width: 1205px){
+	.background{
+		height: 100%;
+		width: auto;
+	}
+}
+
+.logo1{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	width: 150px;
+
+}
+.logo2{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	width: 150px;
+}
+.licode{
+	position: absolute;
+	opacity: .5;
+	width: 70px;
+	bottom: 60px;
+	right: 15px;
+}
+@media (max-width: 980px){
+	.licode{
+		bottom: 20px;
+	}
+}
+#container_demo {
+	width: 90% !important;
+	padding: 0;
+}
+
+#video_layout {
+	height: 650px;
+	position: relative;
+	top: 30px;
+}
+@media (max-width: 960px){
+	#video_layout {
+		top: 70px;
+	}
+}
+.player{
+	box-shadow: 2px 2px 6px #1a6a82;
+}
+
+#mini_video_layout {
+	height: 100px;
+	position: absolute;;
+	top: 120px;
+	right: 60px;
+}
+
+.mini_video {
+	height: 100px;
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+.subbar {
+	background-color: rgba(0, 0, 0, 0) !important;
+	height: 100% !important;
+	max-height: none !important;
+}
+
+.speaker {
+	width: 23px !important;
+  height: 19px !important;
+  right: none !important;
+  left: 37px;
+  bottom: 7px;
+}
+
+
+.bar_tool.fa-play, .bar_tool.fa-pause {
+	color: white;
+	position: absolute;
+	left: 13px;
+	bottom: 10px;
+}
+
+.bar_tool.fa-microphone, .bar_tool.fa-microphone-slash {
+	color: white;
+	position: absolute;
+	left: 35px;
+	bottom: 10px;
+}
+
+.bar_tool.fa-expand, .bar_tool.fa-compress {
+	color: white;
+	position: absolute;
+	right: 8px;
+	bottom: 5px;
+	background-color: #5bc0de;
+	padding: 5px;
+	border-radius: 11px;
+}
+
+.bar_tool {
+	cursor: pointer;
+}
+
+.username_lab {
+		background-color: #5bc0de;
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: center;
+    color: white;
+    font-size: 1em;
+		padding: 8px 15px;
+		border-radius: 0 0 10px 0;
+
+}
